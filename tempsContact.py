@@ -1,4 +1,4 @@
-#Crédit NathenGPT
+#Crédit NathanGPT
 from datetime import datetime
 
 def obtenir_dernier_argument_et_date(tableau):
