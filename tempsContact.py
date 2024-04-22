@@ -13,6 +13,7 @@ def secondes_per_day_from_raw_data(tableau):
         date = " ".join(elements[:3])
         valeur = float(elements[-1])
 
+        
         if date in valeurs_par_jour:
             valeurs_par_jour[date] += valeur
         else:
