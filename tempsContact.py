@@ -318,9 +318,8 @@ temps_de_contact_par_passage = """
 01 Mar 2027 13:28:43.031    01 Mar 2027 13:39:54.898      671.86648627            
 """
 
-# Calcul de la somme par jour
-totalTime = 0
 data = secondes_per_day_from_raw_data(temps_de_contact_par_passage).items()
+totalTime = 0
 for date, valeurs in data:
     totalTime += round(valeurs/60)
     print(f"{date} : {round(valeurs/60)} minutes")
